@@ -10156,6 +10156,10 @@ header.masthead {
   background-size: cover;
   height: 100vh;
 }
+   .hravertext>div {
+    margin-top: 100px;
+    font-size: 8vmin !important;
+   }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -10178,6 +10182,10 @@ header.masthead .masthead-heading {
     background-image: url("../assets/img/image8.jpeg");
     background-position: top center;
   }
+   .hravertext>div {
+    margin-top: 200px;
+    font-size: 6vmin !important;
+   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
