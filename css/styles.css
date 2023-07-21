@@ -10149,7 +10149,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/image8.jpeg");
+  background-image: url("../assets/img/image81.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10175,6 +10175,8 @@ header.masthead .masthead-heading {
   header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
+    background-image: url("../assets/img/image8.jpeg");
+    background-position: top center;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
