@@ -26,7 +26,7 @@ function countDown() {
   }
 
   if (timeSpan <= 0) {
-    mnacel.innerHTML = '&#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825'
+    mnacel.innerHTML = '&#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825'
     timeLeft.innerHTML = '<span style="text-transform:uppercase;"> Wedding Day!! </span>'
     clearInterval(timerId)
     return
