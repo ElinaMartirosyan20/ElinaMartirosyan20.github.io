@@ -2,7 +2,7 @@ const timeLeft = document.getElementById('time-left')
 const mnacel = document.getElementById('mnacel')
 
 //month day year
-const birthday = new Date('07/24/2023')
+const birthday = new Date('07/29/2023')
 
 const second = 1000
 const minute = second * 60
