@@ -1,7 +1,8 @@
 const timeLeft = document.getElementById('time-left')
+const mnacel = document.getElementById('mnacel')
 
 //month day year
-const birthday = new Date('07/29/2023')
+const birthday = new Date('07/24/2023')
 
 const second = 1000
 const minute = second * 60
@@ -18,13 +19,15 @@ function countDown() {
 
 
   if (timeSpan <= -day) {
-    timeLeft.innerHTML = 'Married!!'
+    mnacel.innerHTML = '&#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825'
+    timeLeft.innerHTML = '<span style="text-transform:uppercase;"> Married!! </span>'
     clearInterval(timerId)
     return
   }
 
   if (timeSpan <= 0) {
-    timeLeft.innerHTML = 'Wedding Day!!'
+    mnacel.innerHTML = '&#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825 &#9825'
+    timeLeft.innerHTML = '<span style="text-transform:uppercase;"> Wedding Day!! </span>'
     clearInterval(timerId)
     return
   }
